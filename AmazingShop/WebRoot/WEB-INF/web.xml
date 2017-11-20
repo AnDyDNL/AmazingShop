@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XiangQingServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.XiangQingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>XiangQingServlet</servlet-name>
+    <url-pattern>/xiangQingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddShopCartServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.AddShopCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddShopCartServlet</servlet-name>
+    <url-pattern>/addShopCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ShopCartServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.ShopCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShopCartServlet</servlet-name>
+    <url-pattern>/shopCartServlet</url-pattern>
+
+  </servlet-mapping>
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>com.oracle.shop.web.filter.EncodingFilter</filter-class>
+    <init-param>
+      <param-name>encoding</param-name>
+      <param-value>utf-8</param-value>
+    </init-param>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DetailServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.DetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.TestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Homepage</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.Homepage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GoodsServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.GoodsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BrandServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.BrandServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelShopCartServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.DelShopCartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JieSuanServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.JieSuanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RefreshServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.RefreshServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DingdanServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.DingdanServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ClassifyServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.ClassifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddressServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.AddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Add_AddressServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.Add_AddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyAddressServlet</servlet-name>
+    <servlet-class>com.oracle.shop.web.controller.MyAddressServlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/servlet/DetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/servlet/TestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Homepage</servlet-name>
+    <url-pattern>/servlet/Homepage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GoodsServlet</servlet-name>
+    <url-pattern>/servlet/GoodsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BrandServlet</servlet-name>
+    <url-pattern>/servlet/BrandServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelShopCartServlet</servlet-name>
+    <url-pattern>/delShopCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JieSuanServlet</servlet-name>
+    <url-pattern>/jieSuanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefreshServlet</servlet-name>
+    <url-pattern>/refreshServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DingdanServlet</servlet-name>
+    <url-pattern>/dingdanServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassifyServlet</servlet-name>
+    <url-pattern>/servlet/ClassifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddressServlet</servlet-name>
+    <url-pattern>/servlet/AddressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add_AddressServlet</servlet-name>
+    <url-pattern>/servlet/Add_AddressServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyAddressServlet</servlet-name>
+    <url-pattern>/MyAddressServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

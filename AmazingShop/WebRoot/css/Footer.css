@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.Fdiv1{
+	margin: auto;
+    width: 1300px;
+    height: 200px;
+    padding-top: 15px;
+    padding-left: 150px;
+    -webkit-margin-top-collapse: 20px;
+    padding-right: px;
+    background-color: #FCFCFC
+}
+.Fdiv2{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 14px;
+	float: left;
+	width: 170px;
+	height: 180px;
+}
+.Fdiv2 h5{
+	font-size: 14px;
+	color: #999999;
+}
+.Fdiv2 li{
+	list-style-type: none;
+	line-height: 25px;
+	
+}
+.Fdiv2 li a:link,a:visited{
+	color: #999999;
+	text-decoration: none;
+}
+.Fdiv2 li a:hover{
+	color: #696969;
+}
